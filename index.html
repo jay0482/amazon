@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <div class="logo">
+                <img src="./amazon logo.jpeg" alt="">
+            </div>
+            <div class="location">
+                <div class="loc-icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="loc-address">
+                    <p>Deliver to Jay</p>
+                    <h5>Pune 411028</h5>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="search">
+                <select name="" id="">
+                    <option value="">All</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in" />
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="tools">
+                <div class="lang">
+                    <h6>ENG</h6>
+                    <div class="lang-tips">
+                        <input type="radio" name="lang" value="Hindi" id="Hindi" />
+                        <label for="Hindi">Hindi</label>
+                        <br />
+                        <br />
+                        <input type="radio" name="lang" value="Marathi" id="Marathi" />
+                        <label for="Marathi">Marathi</label>
+                        <br />
+                        <br />
+                        <input type="radio" name="lang" value="English" id="English" />
+                        <label for="English">English</label>
+                        <br />
+                        <br />
+                        <input type="radio" name="lang" value="Tamil" id="Tamil" />
+                        <label for="Tamil">Tamil</label>
+                    </div>
+                </div>
+                <div class="sign">
+                    <span>Hello sign in</span>
+                    <h5>Accounts & Lists</h5>
+
+                    <div class="content">
+                        <div class="top">
+                            <button class="sign-btn">Sign In</button>
+                            <br />
+                            <span>New Customer?</span> <a href="">Click Here</a>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <h4>Your Lists</h4>
+                                <ol>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                    <li><a href="">Create a Wishlist</a></li>
+                                </ol>
+                            </div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Return-order">
+                    <p>Returns</p>
+                    <h6>& Orders</h6>
+                </div>
+                <div>4</div>
+            </div>
+    </header>
+    <main>
+        <nav>
+            <div class="nav-main">
+                <div class="nav-left">
+                    <div class="All">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <h5>All</h5>
+                    </div>
+                    <div class="Fresh">
+                        <p>Fresh</p>
+                    </div>
+                    <div class="Fashion">
+                        <p>Fashion</p>
+                    </div>
+                    <div class="Electronics">
+                        <p>Electronics</p>
+                    </div>
+                    <div class="Amazon">
+                        <p>Amazon Mini TV</p>
+                    </div>
+                    <div class="Sell">
+                        <p>Sell</p>
+                    </div>
+                    <div class="Buyagain">
+                        <p>Buy Again</p>
+                    </div>
+                    <div class="Gift-Ideas">
+                        <p>Gift Ideas</p>
+                    </div>
+                    <div class="Todays-Deals">
+                        <p>Today's Deals</p>
+                    </div>
+                    <div class="Amazon-business">
+                        <p>Amazon Business</p>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="mtv">
+                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img17/Home/AmazonTV/Crimes_aajkal/SWM_400x39_V1._CB585205801_.jpg" alt="Amazon Mini TV add">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="Banner">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img23/BAU-January_Dell-Days/Dell_GW_Prime_3000x1200._CB585807593_.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Toys/GW/0-PC_Hero_2x-OUTDOOR-Aug9._CB597738293_.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Wireless/Meghana/iQOO/Neo9Pro/D112032990_WLD---BAU---iQOO-Neo-9-pro---Design-SIM_DesktopTallHero_3000x1200._CB585414984_.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+            <div class="product-category">
+                <div class="product-container1">
+                    <div class="first-item">
+                        <h4>Great Republic Day Coming Soon</h4>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IN-Events/Jan24ARTTeaser1/GW/Desktop_cc_1x._SY304_CB585633730_.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-item">
+                        <h4>Keep Shopping For</h4>
+                        <div class="products">
+                            <div class="product-1">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/418nxVc-3gL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Instant water heater</p>
+                            </div>
+                            <div class="product-2">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/21FZpNs3d+L._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Storage water heater</p>
+                            </div>
+                            <div class="product-3">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/415yl0HeDQL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Keyboard & mouse</p>
+                            </div>
+                            <div class="product-4">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41RVbcdKrSL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Monitors</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-item">
+                        <h4>Pick where you left off</h4>
+                        <div class="products">
+                            <div class="product-1">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/418nxVc-3gL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Instant water heater</p>
+                            </div>
+                            <div class="product-2">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/21FZpNs3d+L._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Storage water heater</p>
+                            </div>
+                            <div class="product-3">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/415yl0HeDQL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Keyboard & mouse</p>
+                            </div>
+                            <div class="product-4">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41RVbcdKrSL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Monitors</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fourth-item">
+                        <h4>Great Republic Day Coming Soon</h4>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IN-Events/Jan24ARTTeaser1/GW/Desktop_cc_1x._SY304_CB585633730_.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-container2">
+                    <div class="first-item">
+                        <h4>Prime Video: Recommended for you</h4>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/a5bd4dc372115def1911469b3596c644b89e477627ca51687b39d2200a87be60._AC_SL792_.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-item">
+                        <h4>Buy Again</h4>
+                        <div class="products">
+                            <div class="product-1">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71QBCKSUpdL._AC_SY119_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="product-2">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41LbS+o+EGL._AC_SY119_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="product-3">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51dWUMCgQzL._AC_SY119_.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="product-4">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51EGPjqg+DL._AC_SY119_.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-item">
+                        <h4>Categorise to explore</h4>
+                        <div class="products">
+                            <div class="product-1">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41NHBKgWZiL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Shampoos</p>
+                            </div>
+                            <div class="product-2">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/31vCayLbhsL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Internal solid state</p>
+                            </div>
+                            <div class="product-3">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41LYCGZJKfL._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Face creams</p>
+                            </div>
+                            <div class="product-4">
+                                <div class="product-img">
+                                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/31TiXvJum0L._MCnd_AC_.jpg" alt="">
+                                </div>
+                                <p>Moisturizers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- deal -->
+        <section class="deals">
+            <div class="top">
+                <h4>Today's Deals</h4>
+                <a href="">See more</a>
+            </div>
+            <div class="bottom">
+                <div id="carouselExampleControlsdeal" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="products">
+                                <a href="./productDetails.html" target="_blank" class="item">
+                                    <div class="product">
+                                        <div class="img">
+                                            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61h-VNFizEL._SX679__AC_SY200_.jpg" alt="">
+                                        </div>
+                                        <div class="offer">
+                                            <a href="">
+                                            Upto 25% off
+                                        </a>
+                                        </div>
+                                        <div class="text">
+                                            <p>Health and Sports Supplements</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41n4z8Xv1BL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">
+                                            Upto 44% off
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Best Selling Books</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41ZiNufv4fL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">
+                                            Upto 51% off
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Cookware,Pots & Pans</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41uGjvXbeBL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">
+                                            Upto 91% off
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Travel Adapter</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41qxorrttkL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">
+                                            Upto 87% off
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Wallpaper</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item2">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41h5U0ROy6L._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">Upto 47% off</a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Best deals on asian</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41oN7Fl0hwL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">Upto 67% off</a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Bath hardware accessories</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71ZP1Ux8uEL._UY695__AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">Upto 70% off</a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Puma footwear & clothes</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51sMr1aZcYL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">550 & under</a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Extension cords</p>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/21r7Im2bgKL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                    <div class="offer">
+                                        <a href="">Upto 40% off</a>
+                                    </div>
+                                    <div class="text">
+                                        <p>Festel Gardening Tools</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsdeal" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsdeal" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="recommended">
+            <div class="left">
+                <div class="img-box">
+                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/31AZR4+Tb2L._SY300_SX300_.jpg" alt="recommended product" />
+                </div>
+            </div>
+            <div class="right">
+                <h4>The Sleep Company SmartGrid Onyx High-Back Chair</h4>
+                <p>For Office & Home |Patended SmartGrid Technology</p>
+                <div class="stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <div class="deals-btn">
+                    <button>50% Off</button>
+                    <span>Deal of the Day</span>
+                </div>
+                <div class="price">
+                    <h5><span>₹</span> 12,999 <span>00</span></h5>
+                    <h6>₹25,999.00</h6>
+                    <div class="prime-logo">
+                        <i class="fa fa-check" aria-hidden="true"></i> <span>prime</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="candy">
+            <div class="top">
+                <h4>Inspired by your Wish List</h4>
+                <a href="">See more</a>
+            </div>
+            <div class="bottom">
+                <div id="carouselExampleControlscandy" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81hhWSx-GWL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71B4PS+wLML._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/91vef1B8EfL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61VStazaybL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81x-MlzJwPL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51ejYD1TswL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51ejYD1TswL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item2">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81srf6LHbTL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81L6KNXT4fL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81nVvuq3miL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/91JWyEltzEL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/619CY375uvL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71HNHXGLilL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81kD-TQp8jL._AC_SY200_.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlscandy" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlscandy" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="accessories">
+            <div class="top">
+                <h4>Your Browsing History</h4>
+                <a href="">View or edit your browsing history</a>
+            </div>
+            <div class="bottom">
+                <div id="carouselExampleControlsfix" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81iKmwIx-YL._UX300__PJku-sticker-v7,TopRight,0,-50_AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61ni3t1ryQL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81LL39k06fL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81Dalxf-l3L._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/41WSjo7JZbL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61eA6zJfHOL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61kEeBDS8vL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71EoBiofiwL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61wEKRy8zAL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61SpcDjsq8L._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71CmoGK9GLL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/51dWUMCgQzL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/51dWUMCgQzL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61qZgXXDAaL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61vNUBjkcmL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/415yl0HeDQL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71SsKQTf8NL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/A1Iqr2v1SIL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61wVPYKyQQL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/91SgQm4FmmL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="products">
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/41k+lYvuzTL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61j6nkaCrML._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61gJA1T24zL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71gfGhGGHQL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/616rKCjZqsL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81imSe3r1DL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81imSe3r1DL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/51B8a69jv7L._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71uAPvwB5uL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="img">
+                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/715tAlRV1oL._AC_UL100_SR100,100_.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsfix" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsfix" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="up">
+            <p>Back to top</p>
+        </div>
+        <div class="mid-footer">
+            <div class="first">
+                <p>Get to Know Us</p>
+
+                <div>
+                    <a href="">About Us</a><br>
+
+                    <a href="">Carrer</a><br>
+                    <a href="">Press Releases</a><br>
+                    <a href="">Amazom Science</a><br>
+
+                </div>
+
+            </div>
+            <div class="second">
+                <p>Connect with Us</p>
+
+                <div>
+                    <a href="">Facebook</a><br>
+
+                    <a href="">Twitter</a><br>
+                    <a href="">Instagram</a><br>
+
+                </div>
+            </div>
+            <div class="third">
+                <p>Make Money with Us</p>
+
+                <div>
+                    <a href="">Sell on Amazon</a><br>
+
+                    <a href="">Sell under Amazom Accelerator</a><br>
+                    <a href="">Protect and Build Your Brand </a><br>
+                    <a href="">Amazom Global Selling </a><br>
+                    <a href="">Become an Affiliate</a><br>
+                    <a href="">Fulfilment by Amazom</a><br>
+                    <a href="">Adverties Your Product</a><br>
+                    <a href="">Amazon Pay on Merchant</a><br>
+
+                </div>
+
+            </div>
+            <div class="fourth">
+                <p>
+                    Let Us Help You</p>
+
+                <div>
+                    <a href="">COVID-19 and Amazon</a><br>
+
+                    <a href="">Your Account</a><br>
+                    <a href="">Returns Centre</a><br>
+                    <a href="">100% Purchase Protection</a><br>
+                    <a href="">Amazon App Download</a><br>
+
+                    <a href="">Help</a><br>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="logo">
+                <div class="img-logo">
+                    <img src="./amazon-dark-logo.png" alt="">
+                </div>
+                <div class="eng-lang">
+                    <div class="eng">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <p>English</p>
+                        <div>
+                            <!-- <i class="fa fa-caret-up" aria-hidden="true"></i> -->
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="select-lang">
+                        <ul class="en">
+                            <input type="radio" name="hindi" id="Hindi">
+                            <label for="Hindi">Hindi</label>
+                            <br>
+                        </ul>
+                        <ul>
+                            <input type="radio" name="hindi" id="Hindi">
+                            <label for="Hindi">Hindi</label>
+                            <br>
+
+
+                            <input type="radio" name="hindi" id="Marathi">
+                            <label for="Marathi">Marathi</label>
+                            <br>
+
+
+
+                            <input type="radio" name="hindi" id="Nepali">
+                            <label for="Nepali">Nepali</label>
+
+                            <br>
+
+                            <input type="radio" name="hindi" id="Telgu">
+                            <label for="Telgu">Telgu</label>
+                            <br>
+
+                            <input type="radio" name="hindi" id="Hindi">
+                            <label for="Hindi">Hindi</label>
+                            <br>
+
+
+                            <input type="radio" name="hindi" id="Marathi">
+                            <label for="Marathi">Marathi</label>
+                            <br>
+
+
+
+                            <input type="radio" name="hindi" id="Nepali">
+                            <label for="Nepali">Nepali</label>
+
+                            <br>
+
+                            <input type="radio" name="hindi" id="Telgu">
+                            <label for="Telgu">Telgu</label>
+
+                        </ul>
+                        <a href="">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="below">
+                <span>Australia</span>
+                <span>Brazil
+                </span>
+                <span>Canada
+                </span>
+                <span>China</span>
+                <span>France</span>
+                <span>Germany</span>
+                <span>
+                    Italy</span>
+                <span>Japan</span>
+                <span>Mexico</span>
+                <span>Nethrlands</span>
+                <span>Singapore</span>
+                <span>Spain</span>
+                <span>Turkey</span>
+                <span>United Arab Emirates</span>
+
+            </div>
+            <div>
+
+                <span>United Kingdom</span>
+                <span>United States</span>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
